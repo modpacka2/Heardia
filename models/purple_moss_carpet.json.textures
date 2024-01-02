@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "purple_mossy_end_stone_top"
+      },
+      "name": "default"
+    }
+  }
+}

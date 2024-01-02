@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "heardia:block/end_stone",
+    "top": "heardia:block/purple_mossy_end_stone_top",
+    "side": "heardia:block/purple_mossy_end_stone",
+    "overlay": "heardia:block/purple_mossy_end_stone",
+    "particle": "heardia:block/purple_mossy_end_stone"
+  },
+  "render_type": "cutout_mipped"
+}

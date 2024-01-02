@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "heardia:block/purplemossyendstone"
+    },
+    "facing=east": {
+      "model": "heardia:block/purplemossyendstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "heardia:block/purplemossyendstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "heardia:block/purplemossyendstone",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "mod_elements": [
+    {
+      "name": "Purplemossyendstone",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplemossyendstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heardia/block/PurplemossyendstoneBlock.java",
+          "src/main/resources/assets/heardia/blockstates/purplemossyendstone.json",
+          "src/main/resources/assets/heardia/models/item/purplemossyendstone.json",
+          "src/main/resources/assets/heardia/models/block/purplemossyendstone.json"
+        ]
+      },
+      "path": "~/end/cadarium_biome/blocks"
+    },
+    {
+      "name": "Heardia",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heardia",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PurpleMoss",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_moss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heardia/item/PurpleMossItem.java",
+          "src/main/resources/assets/heardia/models/item/purple_moss.json"
+        ]
+      },
+      "path": "~/end/cadarium_biome/items"
+    },
+    {
+      "name": "PurplemossyendstoneOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplemossyendstone_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heardia/procedures/PurplemossyendstoneOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/end/cadarium_biome/procedure"
+    },
+    {
+      "name": "Endblockrightclick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endblockrightclick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heardia/procedures/EndblockrightclickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/end/cadarium_biome/procedure"
+    },
+    {
+      "name": "Purpulmosspropagation",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purpulmosspropagation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heardia/procedures/PurpulmosspropagationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/end/cadarium_biome/procedure"
+    },
+    {
+      "name": "Positif",
+      "type": "particle",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "positif",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/heardia/particles/positif.json",
+          "src/main/java/net/mcreator/heardia/client/particle/PositifParticle.java"
+        ]
+      },
+      "path": "~/end/cadarium_biome/particule"
+    },
+    {
+      "name": "Negatif",
+      "type": "particle",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "negatif",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/heardia/particles/negatif.json",
+          "src/main/java/net/mcreator/heardia/client/particle/NegatifParticle.java"
+        ]
+      },
+      "path": "~/end/cadarium_biome/particule"
+    },
+    {
+      "name": "PurpleMossyCarpet",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mossy_carpet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heardia/block/PurpleMossyCarpetBlock.java",
+          "src/main/resources/assets/heardia/blockstates/purple_mossy_carpet.json",
+          "src/main/resources/assets/heardia/models/block/purple_mossy_carpet.json",
+          "src/main/resources/assets/heardia/models/item/purple_mossy_carpet.json"
+        ]
+      },
+      "path": "~/end/cadarium_biome/blocks"
+    },
+    {
+      "name": "Purplemossyendstoneloot",
+      "type": "loottable",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplemossyendstoneloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/heardia/loot_tables/blocks/purplemossyendstone.json"
+        ]
+      },
+      "path": "~/end/cadarium_biome/loot_table"
+    },
+    {
+      "name": "Purplemossycarpetloot",
+      "type": "loottable",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplemossycarpetloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/heardia/loot_tables/blocks/purple_mossy_carpet.json"
+        ]
+      },
+      "path": "~/end/cadarium_biome/loot_table"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.heardia.purple_moss": "Purple Moss",
+      "block.heardia.purplemossyendstone": "Purple Mossy End Stone",
+      "block.heardia.purple_mossy_carpet": "Purple Mossy Carpet",
+      "item_group.heardia.heardia": "Heardia"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "overworld",
+        "children": []
+      },
+      {
+        "name": "nether",
+        "children": []
+      },
+      {
+        "name": "end",
+        "children": [
+          {
+            "name": "cadarium_biome",
+            "children": [
+              {
+                "name": "blocks",
+                "children": []
+              },
+              {
+                "name": "items",
+                "children": []
+              },
+              {
+                "name": "mobs",
+                "children": []
+              },
+              {
+                "name": "procedure",
+                "children": []
+              },
+              {
+                "name": "particule",
+                "children": []
+              },
+              {
+                "name": "loot_table",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "heardia",
+        "children": []
+      },
+      {
+        "name": "tag",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "heardia",
+    "modName": "Heardia",
+    "version": "1.0.0",
+    "author": "cswit, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.heardia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
